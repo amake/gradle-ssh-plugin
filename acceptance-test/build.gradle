@@ -20,5 +20,5 @@ test {
     }
 
     systemProperty 'target.gradle.versions',
-            project.findProperty('target.gradle.versions') ?: "${gradle.gradleVersion},1.12"
+            project.findProperty('target.gradle.versions') ?: "${gradle.gradleVersion},3.0,1.12"
 }
